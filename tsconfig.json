@@ -4,8 +4,9 @@
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
     "lib": [
-      "es2017"
+      "es2018"
     ],
     "module": "commonjs",
     "moduleResolution": "node",
@@ -21,7 +22,7 @@
     },
     "sourceMap": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2020"
   },
   "include": [
     "src/**/*.ts"
