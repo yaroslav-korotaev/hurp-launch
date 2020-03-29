@@ -20,8 +20,8 @@ $ npm install hurp-launch
 
 ```typescript
 import pino from 'pino';
-import launch from 'hurp-launch';
-import App from './app';
+import { launch } from 'hurp-launch';
+import { App } from './app';
 
 const log = pino();
 
@@ -52,7 +52,7 @@ This approach is inspired by [Bunyan](https://github.com/trentm/node-bunyan). Yo
 ### `async launch(main: Main, options: Options): Promise<void>`
 
 ```ts
-import launch from 'hurp-launch';
+import { launch } from 'hurp-launch';
 ```
 
 Executes `main` function and launches the application instance it returned.
