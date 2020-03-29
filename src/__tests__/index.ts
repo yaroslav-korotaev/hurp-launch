@@ -1,4 +1,4 @@
-import launch, { App } from '../index';
+import { App, launch } from '../index';
 
 async function flushPromises() {
   return new Promise(setImmediate);

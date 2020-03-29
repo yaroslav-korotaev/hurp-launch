@@ -14,7 +14,7 @@ export interface Options {
   log: Log;
 }
 
-export default async function launch(main: Main, options: Options): Promise<void> {
+export async function launch(main: Main, options: Options): Promise<void> {
   const log = options.log;
   const fatal = (err: Error, message: string): void => {
     log.fatal({ err }, `${message}: ${err.message}`);
