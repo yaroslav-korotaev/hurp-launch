@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/yaroslav-korotaev/hurp-launch/compare/v2.0.0...v2.0.1) (2020-03-29)
+
+
+### Bug Fixes
+
+* **docs:** update docs ([79a3496](https://github.com/yaroslav-korotaev/hurp-launch/commit/79a34962c7dcdfc01d3494c860e6004eb6fe9ed7))
+
 # [2.0.0](https://github.com/yaroslav-korotaev/hurp-launch/compare/v1.0.3...v2.0.0) (2020-03-29)
 
 
