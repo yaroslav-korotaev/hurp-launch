@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/yaroslav-korotaev/hurp-launch/compare/v1.0.3...v2.0.0) (2020-03-29)
+
+
+### Code Refactoring
+
+* export launch() as non-default ([acf187f](https://github.com/yaroslav-korotaev/hurp-launch/commit/acf187fce79fa83dab6f4727f5fc6a6099bd9d15))
+
+
+### Features
+
+* update TypeScript config ([2b33b34](https://github.com/yaroslav-korotaev/hurp-launch/commit/2b33b341882e83c5e3b96890f6a653e669bcbed0))
+
+
+### BREAKING CHANGES
+
+* Now the `launch()` function is a general, non-default export.
+
 # Changelog
 
 ## [1.0.3] - 2019-06-07
